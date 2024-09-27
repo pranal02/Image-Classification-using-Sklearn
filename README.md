@@ -8,3 +8,12 @@
 - NumPy
 - Pillow (PIL) (for image loading and basic manipulation)
 - Matplotlib (for visualization)
+
+# Code Explanation
+
+
+- Load images: Images are loaded from the specified directory structure using Pillow.
+- Preprocess images: Images are resized and converted to grayscale using Pillow functions.
+- Extract features: HOG features are extracted from each image using scikit-learn's HOG descriptor.
+- Train Models: An SVM model is trained using the extracted features and corresponding labels.
+- Evaluate models: The model's performance is evaluated on a test set using accuracy.
